@@ -1,0 +1,150 @@
+/* Legacy styles removed in favor of Tailwind. */
+
+.realtime-actions button {
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #3a3f4b;
+  background-color: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.realtime-transcript pre {
+  text-align: left;
+  background-color: #0d1117;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+.finalize-panel {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #1a1d24;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.finalize-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.finalize-actions button {
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #3a3f4b;
+  background-color: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.report-block pre {
+  text-align: left;
+  background-color: #0d1117;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
+
+.auth-section {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #1a1d24;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.auth-form input {
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #3a3f4b;
+  background-color: #0d1117;
+  color: #fff;
+}
+
+.auth-form button {
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #3a3f4b;
+  background-color: #2563eb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.auth-toggle button {
+  flex: 1;
+  background-color: #0d1117;
+  border: 1px solid #3a3f4b;
+}
+
+.auth-toggle button.active {
+  background-color: #2563eb;
+}
+
+.secondary {
+  margin-top: 0.75rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #3a3f4b;
+  background-color: #0d1117;
+  color: #fff;
+  cursor: pointer;
+}
+
+.small-text {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.health-status h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.success {
+  color: #4caf50;
+}
+
+.error {
+  color: #f44336;
+}
+
+.error-message {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+pre {
+  text-align: left;
+  background-color: #0d1117;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}

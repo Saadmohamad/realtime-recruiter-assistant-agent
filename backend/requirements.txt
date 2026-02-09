@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+openai
+tenacity
+chromadb
+pypdf
+python-docx
+python-dotenv
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+google-cloud-storage
+bcrypt==4.0.1
+
+# dev/test
+pytest
+httpx

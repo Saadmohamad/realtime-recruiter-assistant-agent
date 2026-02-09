@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.local
+*.env
+.env.deploy
+.env.example
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache
+.ruff_cache
+.pytest_cache
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

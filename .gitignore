@@ -1,0 +1,11 @@
+# Test files
+CV-JD-Test/
+
+# Deployment env (contains secrets)
+.env.deploy
+
+# OS files
+.DS_Store
+
+# Binaries
+cloud-sql-proxy
